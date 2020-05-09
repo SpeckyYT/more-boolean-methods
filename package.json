@@ -1,0 +1,29 @@
+{
+  "name": "more-boolean-methods",
+  "version": "1.0.0",
+  "description": "More boolean methods!",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "node library.test.js"
+  },
+  "keywords": [
+    "boolean",
+    "booleans",
+    "boolean-methods",
+    "boolean-prototype",
+    "polyfill"
+  ],
+  "author": "SpeckyYT",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpeckyYT/more-boolean-methods.git"
+  },
+  "bugs":{
+    "url": "https://github.com/SpeckyYT/more-boolean-methods/issues"
+  },
+  "homepage": "https://github.com/SpeckyYT/more-boolean-methods#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
