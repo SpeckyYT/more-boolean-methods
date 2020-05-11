@@ -2,7 +2,7 @@
 
 ## Installation
 ```js
-require('more-booleans-methods')();
+require('more-boolean-methods')();
 // Done!
 ```
 
@@ -19,6 +19,7 @@ require('more-booleans-methods')();
 .false() | Will return false
 .and(boolean) | Will return the 'AND' value of the two booleans
 .or(boolean) | Will return the 'OR' value of the two booleans
+.equals(boolean) | Will return true if both booleans are equal
 .xor(boolean) | Will return the 'XOR' value of the two booleans
 
 ## Examples

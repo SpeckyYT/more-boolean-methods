@@ -36,6 +36,10 @@ module.exports = function(){
         return this || b;
     };
 
+    Boolean.prototype.equals = function(b){
+        return this === b;
+    };
+
     Boolean.prototype.xor = function(b){
         return this ^ b;
     };

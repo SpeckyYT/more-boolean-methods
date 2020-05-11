@@ -38,6 +38,10 @@ require('./')();
         true.or(false)
     ],
     [
+        'EQUALS',
+        true.equals(false)
+    ],
+    [
         'XOR',
         true.xor(false)
     ]
