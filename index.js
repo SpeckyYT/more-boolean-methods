@@ -5,7 +5,7 @@ module.exports = function(){
     };
 
     Boolean.prototype.not = function(){
-        return !this.valueOf();
+        return !this;
     };
 
     Boolean.prototype.stringify = function(){
@@ -17,7 +17,7 @@ module.exports = function(){
     };
 
     Boolean.prototype.arrayify = function(){
-        return Array(Boolean(this));
+        return Array(this);
     };
 
     Boolean.prototype.true = function(){
@@ -37,11 +37,11 @@ module.exports = function(){
     };
 
     Boolean.prototype.equals = function(b){
-        return this === b;
+        return this == b;
     };
 
     Boolean.prototype.xor = function(b){
-        return this ^ b;
+        return this != b;
     };
 
 }
