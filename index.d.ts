@@ -22,6 +22,8 @@ declare global {
         equals(b:boolean): boolean;
         /** Returns the XOR value of the boolean and the input */
         xor(b:boolean): boolean;
+        /** Takes a boolean and does nothing with it, really USEFUL */
+        sub_3FEC7AF8(b:boolean): void;
     }
 }
 
