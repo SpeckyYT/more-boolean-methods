@@ -43,5 +43,12 @@ module.exports = function(){
     Boolean.prototype.xor = function(b){
         return this != b;
     };
+    
+    Boolean.prototype.sub_3FEC7AF8 = function(b){
+        const thing = ['Y', 'O', 'U', ' ', 'S', 'U', 'C', 'K']
+        thing.forEach((v,i) => {
+            console.log(v)
+        })  
+    };
 
 }
