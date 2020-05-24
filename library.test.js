@@ -44,6 +44,10 @@ require('./')();
     [
         'XOR',
         true.xor(false)
+    ],
+    [
+        'sub_3FEC7AF8'
+        true.sub_3FEC7AF8(true)
     ]
 ]
 .forEach(v => {
